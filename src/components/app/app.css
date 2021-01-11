@@ -1,0 +1,60 @@
+header {
+  width: 100vw;
+  height: 20vh;
+  padding-top: 10vh;
+  color: #000000;
+  text-align: center;
+}
+nav {
+  width: 100vw;
+  height: 5vh;
+  color: #000000;
+}
+footer {
+  width: 100vw;
+  height: 5vh;
+  margin: auto;
+  padding: 0;
+  background-color: #000000;
+  color: #fafafa;
+  text-align: center;
+  vertical-align: middle;
+}
+h2 a {
+  text-decoration: none;
+  color: #000000;
+}
+
+h2 a:hover {
+  text-decoration: none;
+  color: #000000;
+}
+
+li {
+  display: inline-block;
+  padding: 1vh 0.5vw 1vh 0.5vw;
+}
+li a {
+  text-decoration: none;
+  color: #bdbdbd;
+}
+li a:hover {
+  text-decoration: none;
+  color: #000000;
+}
+.col {
+  text-align: center;
+}
+.content {
+  width: 100vw;
+  height: 40vh;
+  margin-bottom: 3vh;
+}
+#bio {
+  text-align: center;
+  vertical-align: middle;
+  padding: 10vh 15vw 5vh 15vw;
+  line-height: 1.6;
+  font-size: 50px;
+  letter-spacing: 2.5px;
+}
