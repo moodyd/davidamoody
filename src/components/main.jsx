@@ -4,15 +4,16 @@ import './app/app.css';
 class Main extends React.Component {
     render() {
         return (<main>
-            <div id="about" class="content">
+            <div id="about" className="content">
                 <div id="bio"> 
-                    <p><strong>Analytical, inspired by technology, passionate about great design, on a mission to create meaningful experiences in the digital space.</strong></p>
+                    Creative, analytical, inspired by technology and passionate about great design, 
+                    on a mission to create meaningful experiences in the digital space.
                 </div>
                 </div>
-                <div id="work" class="content">
+                <div id="work" className="content">
                     <div> </div>
                 </div>
-                <div id="personal" class="content">
+                <div id="personal" className="content">
                     <div > </div>
                 </div>
         </main>);

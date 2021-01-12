@@ -1,6 +1,6 @@
 {
   "name": "davidamoody",
-  "homepage": "https://moodyd.github.io/davidamoody",
+  "homepage": "https://davidamoody.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,6 +8,8 @@
     "@testing-library/react": "^11.2.3",
     "@testing-library/user-event": "^12.6.0",
     "bootstrap": "^4.5.3",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.1",
@@ -19,7 +21,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -b master -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -40,6 +42,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^2.0.1"
+    "gh-pages": "^3.1.0"
   }
 }

@@ -4,18 +4,18 @@ import './app/app.css';
 class Nav extends React.Component {
     render() {
         return (<nav>
-            <div class="row align-items-center">
-            <div class="col">
+            <div className="row align-items-center">
+            <div className="col">
                 <ul>
-                <li><a href="#work">Work</a></li> 
-                <li><a href="#personal">Personal</a></li>
+                    <li><a href="#work">Work</a></li> 
+                    <li><a href="#personal">Personal</a></li>
                 </ul>
             </div>
-            <div class="col"></div>
-            <div class="col">
+            <div className="col"></div>
+            <div className="col">
                 <ul>
-                <li><a href="#about">About</a></li> 
-                <li><a href="#contact">Contact</a></li>
+                    <li><a href="#about">About</a></li> 
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
             </div>
