@@ -1,14 +1,15 @@
 import React from 'react';
 import './app/app.css';
 
-const refreshPage = () =>{
+const refreshPage = async (e) =>{
     window.location.reload();
+    e.preventDefault();
 }
 
 const header = (<header>
     <div className="row align-items-centers">
-        <div className="col">
-            <h2 onClick={refreshPage}>David Armstrong Moody</h2>
+        <div id="name" className="col">
+            <a href="/" onClick={refreshPage}><h2 >David Armstrong Moody</h2></a>
         </div>
     </div>
 </header>);
