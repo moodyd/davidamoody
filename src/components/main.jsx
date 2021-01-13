@@ -7,7 +7,7 @@ class Main extends React.Component {
             <div id="about" className="content">
                 <div id="bio"> 
                     Creative, analytical, inspired by technology and passionate about great design, 
-                    on a mission to create meaningful experiences in the digital space.
+                    I'm on a mission to create meaningful experiences in the digital space.
                 </div>
                 </div>
                 <div id="work" className="content">
