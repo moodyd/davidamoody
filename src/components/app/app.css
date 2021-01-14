@@ -1,8 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap");
-
-#root {
-  animation: fade 0.8s ease-in;
-}
 header {
   width: 100vw;
   height: 20vh;
@@ -10,17 +6,10 @@ header {
   color: #000000;
   text-align: center;
   font-family: "Noto Sans TC", sans-serif;
-  /* animation: fade 0.8s ease-in; */
 }
 nav {
   width: 100vw;
   height: 5vh;
-  color: #000000;
-  /* animation: fade 1s ease-in; */
-}
-main {
-  /* animation-delay: 0.2s;
-  animation: fade 1.4s ease-in; */
 }
 footer {
   width: 100vw;
@@ -31,13 +20,16 @@ footer {
   bottom: 0;
   text-align: center;
   vertical-align: middle;
-  /* animation: fade 1s ease-in; */
 }
-h2 {
+#root {
+  animation: fade 0.8s ease-in;
+}
+#name a {
   font-size: 2.3vw;
 }
-h2:hover {
+#name a:hover {
   color: #000000;
+  text-decoration: none;
 }
 ul {
   margin: 0;
@@ -46,16 +38,16 @@ ul {
 
 li {
   display: inline-block;
-  padding: 1vh 1vw 1vh 1vw;
-  font-size: 1vw;
-}
-li a {
-  text-decoration: none;
-  color: #999999;
+  padding: 0vh 1vw 1vh 0vw;
 }
 li a:hover {
   text-decoration: none;
   color: #000000;
+}
+.topNav {
+  text-decoration: none;
+  color: #999999;
+  font-size: 1vw;
 }
 .content {
   width: 100vw;
@@ -89,53 +81,100 @@ li a:hover {
   padding-left: 12.5vw;
 }
 
-@keyframes fade {
-  0% {
-    opacity: 0;
-  }
-}
-/* @media screen and (min-width: 601px) {
-  div.example {
-    font-size: 80px;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  div.example {
-    font-size: 30px;
-  }
-} */
-@media only screen and (min-device-width: 320vw) and (max-device-width: 414vw) {
+@media only screen and (min-width: 481px) and (max-width: 768px) {
   header {
     height: 10vh;
-    padding-top: 10vh;
-    /* animation: fade 0.8s ease-in; */
+    padding-top: 6vh;
   }
   nav {
-  }
-  main {
+    padding: 2.5vh 0vw 5vh 0vw;
   }
   footer {
     width: 100vw;
     height: 20vh;
     font-size: 5vw;
     display: block;
-    /* animation: fade 1s ease-in; */
   }
-  #name a h2 {
-    font-size: 4vw;
+  li {
+    padding: 2vh 1vw 1vh 1vw;
+  }
+  #name a {
+    font-size: 5vw;
   }
   #bio {
-    font-size: 5.2vw;
-    padding: 0vh 10vw 0vh 10vw;
+    font-size: 4vw;
+    padding: 4vh 9vw 0vh 9vw;
   }
-  #contact ul li {
+  #contact {
     display: block;
     position: absolute;
-    overflow: auto;
-    font-size: 3.2vw;
+    font-size: 3.8vw;
   }
-  .col ul li a {
+  #right {
+    text-align: right;
+    padding-right: 4.5vw;
+  }
+  #left {
+    text-align: left;
+    padding-left: 4.5vw;
+  }
+  .topNav {
+    text-decoration: none;
+    color: #999999;
     font-size: 3.2vw;
+    text-align: lext;
+  }
+}
+
+@media only screen and (max-width: 480px) and (min-width: 320px) {
+  header {
+    height: 10vh;
+    padding-top: 6vh;
+  }
+  nav {
+    padding: 2.5vh 0vw 5vh 0vw;
+  }
+  footer {
+    width: 100vw;
+    height: 20vh;
+    font-size: 5vw;
+    display: block;
+  }
+  li {
+    padding: 2vh 1vw 1vh 1vw;
+  }
+  #name a {
+    font-size: 5vw;
+  }
+  #bio {
+    font-size: 4vw;
+    padding: 4vh 9vw 0vh 9vw;
+  }
+  #contact {
+    padding: 1vh 0vw 0vh 0vw;
+  }
+  #contact li {
+    display: block;
+    font-size: 3.8vw;
+  }
+  #right {
+    text-align: right;
+    padding-right: 4.5vw;
+  }
+  #left {
+    text-align: left;
+    padding-left: 4.5vw;
+  }
+  .topNav {
+    text-decoration: none;
+    color: #999999;
+    font-size: 3.2vw;
+    text-align: lext;
+  }
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
   }
 }

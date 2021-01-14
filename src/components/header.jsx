@@ -9,7 +9,7 @@ const refreshPage = async (e) =>{
 const header = (<header>
     <div className="row align-items-centers">
         <div id="name" className="col">
-            <a href="/" onClick={refreshPage}><h2 >David Armstrong Moody</h2></a>
+            <a href="/" onClick={refreshPage}>David Armstrong Moody</a>
         </div>
     </div>
 </header>);
